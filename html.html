@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Best Title Ever! </title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "css.css">
+        <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="questionmarkdicewhite.png">
+        <style>
+            body{
+    margin:0;
+    padding:0;
+    color:#bfbfbf;
+    background-color:#333;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.welcome{
+    background-color:rgba(0,0,0,0.7);
+    text-align:center;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:1px;
+}
+
+#welcometext:hover{
+    color:#00bfff;
+}
+
+#name:hover{
+    color:#00bfff;
+}
+
+#bolyailogo{
+    width: 100px;
+    height: 100px;
+}
+
+#hint{
+    font-size: 10px;
+}
+
+#hint a{
+    text-decoration:none;
+    color:#bfbfbf;
+}
+
+#space{
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    color:rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 5px;
+    border-color:#00bfff;
+    background-image:url("background.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:200px;
+    padding-bottom:100px;
+}
+
+.randomtext{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.7);
+    padding: 10px;
+    padding-left: 30px;
+    text-align:justify;
+}
+
+.randomtext a{
+    text-decoration:none;
+    color:#bfbfbf;
+}
+
+.randomtext a:hover{
+    color:#00BFFF;
+}
+
+#textcim:hover{
+    color:#00BFFF;
+}
+
+#textsource{
+    font-size: 10px;
+}
+
+#timetable{
+    border-collapse: collapse;
+}
+
+#timetable, td, th{
+    border: 1px solid #00bfff;
+    padding: 10px;
+}
+
+.tableh:hover{
+    color: #00bfff;
+    transition-duration: 0.2s;
+}
+
+.eegg{
+    opacity: 0%;
+    font-size: 10px;
+}
+
+.eegg:hover{
+    opacity: 100%;
+}
+
+.sor:hover{
+    color:#00BFFF;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+.end{
+    background-color:rgba(0,0,0,0.95);
+    text-align: center;
+    padding: 25px;
+}</style>
+    </head>
+    <body>
+        <div class = "welcome">
+            <h1 id = "welcometext"> Welcome! </h1>
+            <p> This website was made by <span id = "name"> Markó Attila </span> </p>
+            <p> Győri SZC Mosonmagyaróvári Bolyai János Informatikai és Közgazdasági Szakgimnáziuma, 10.B</p>
+            <a href = "https://bolyai-oktatas.hu/" target = "_blank"> <img id = "bolyailogo" src = "bolyailogo.png"> </a>
+            <br> <span id = "hint"> <a href = "https://bolyai-oktatas.hu/" target = "_blank"> bolyai-oktatas.hu </a> </span>
+        </div>
+
+        <div id = "space">
+            Szép napot Tanárnő! Vessen egy pillantást erre a gyönyörű tájra!
+        </div>
+
+
+        <div class = "randomtext">
+            <h2 id = "textcim"> Random text </h2>
+            <p>
+                 <span class = "sor"> Living valley had silent eat merits esteem bed. In last an or went wise as left. </span>
+            <br> <span class = "sor"> Visited civilly am demesne so colonel he calling. </span>
+            <br> <span class = "sor"> So unreserved do interested increasing sentiments. </span>
+            <br> <span class = "sor"> Vanity day giving points within six not law. </span>
+            <br> <span class = "sor"> Few impression difficulty his use has comparison decisively.  </span>
+            <br> <span class = "sor"> No in he real went find mr. Wandered or strictly raillery stanhill as. </span>
+            <br> <span class = "sor"> Jennings appetite disposed me an at subjects an. </span>
+            <br> <span class = "sor"> To no indulgence diminution so discovered mr apartments. </span>
+            <br> <span class = "sor"> Are off under folly death wrote cause her way spite. </span>
+            <br> <span class = "sor"> Plan upon yet way get cold spot its week. </span>
+            <br> <span class = "sor"> Almost do am or limits hearts. </span>
+            <br> <span class = "sor"> Resolve parties but why she shewing. </span>
+            <br> <span class = "sor"> She sang know now how nay cold real case.  </span>
+            <br> <span class = "sor"> By in no ecstatic wondered disposal my speaking. </span>
+            <br> <span class = "sor"> Direct wholly valley or uneasy it at really. </span>
+            <br> <span class = "sor"> Sir wish like said dull and need make. </span>
+            <p id = "textsource"> Source: <a href = "https://randomtextgenerator.com" target="_blank"> randomtextgenerator.com </a> </p>
+            </p>
+        </div>
+        
+        <div class = "randomtext">
+            <h2 id = "textcim"> Órarend <span style = "font-size:10px;"> (első 2 óra + 0.) </span> </h2>
+        <div class = "table">
+            <table id = "timetable" align ="center">
+                <tr>
+                    <th class = "tableh"> Hétfő </th>
+                    <th class = "tableh"> Kedd </th>
+                    <th class = "tableh"> Szerda </th>
+                    <th class = "tableh"> Csütörtök </th>
+                    <th class = "tableh"> Péntek </th>
+                </tr>
+
+                <tr>
+                    <td class = "eegg"> nem akarom </td>
+                    <td class = "eegg"> az egész </td>
+                    <td class = "eegg"> hetet </td>
+                    <td class = "tablesor"> Testnevelés </td>
+                    <td class = "eegg"> megcsinálni </td>
+                </tr>
+                <tr>
+                    <td class = "tablesor"> Matek </td>
+                    <td class = "tablesor"> Tesi </td>
+                    <td class = "tablesor"> Tesi </td>
+                    <td class = "tablesor"> Prog. gyak. </td>
+                    <td class = "tablesor"> Fizika </td>
+                </tr>
+                <tr> 
+                    <td class = "tablesor"> Angol </td>
+                    <td class = "tablesor"> Pénzügy </td>
+                    <td class = "tablesor"> Irodalom </td>
+                    <td class = "tablesor"> Prog. gyak </td>
+                    <td class = "tablesor"> Angol </td>
+                </tr>
+            </table>    
+        </div>
+        </div>
+
+        <div class = "end">
+           2019 Markó Attila
+        </div>
+    </body>
+</html>
