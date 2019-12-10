@@ -61,6 +61,7 @@ body{
     background-color:rgba(0,0,0,0.7);
     padding: 10px;
     padding-left: 30px;
+    padding-bottom: 20px;
     text-align:justify;
 }
 
@@ -108,6 +109,45 @@ body{
     color:#00BFFF;
     font-size: 20px;
     transition-duration: 0.2s;
+}
+
+.colorschemediv{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.7);
+    padding: 10px;
+    padding-bottom: 20px; 
+    padding-left: 30px;
+}
+
+.colorscheme td{
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    width:200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:none;
+}
+
+#bgcolor{
+    background-color: #333;
+}
+
+#fcolor{
+    background-color:#bfbfbf;
+    color:#000000;
+}
+
+#scolor{
+    background-color:#000000;
+}
+
+#seccolor{
+    background-color: #00bfff;
+    color:black;
 }
 
 .end{
