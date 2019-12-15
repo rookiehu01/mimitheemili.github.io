@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    padding:0;
+    color:#bfbfbf;
+    background-color:#333;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.welcome{
+    background-color:rgba(0,0,0,0.7);
+    text-align:center;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:1px;
+}
+
+#welcometext:hover{
+    color:#00bfff;
+}
+
+#name:hover{
+    color:#00bfff;
+}
+
+#bolyailogo{
+    width: 100px;
+    height: 100px;
+}
+
+#hint{
+    font-size: 10px;
+}
+
+#hint a{
+    text-decoration:none;
+    color:#bfbfbf;
+}
+
+#space{
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    color:rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 5px;
+    border-color:#00bfff;
+    background-image:url("background.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:200px;
+    padding-bottom:100px;
+}
+
+.randomtext{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.7);
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align:justify;
+}
+
+.randomtext a{
+    text-decoration:none;
+    color:#bfbfbf;
+}
+
+.randomtext a:hover{
+    color:#00BFFF;
+}
+
+#textcim:hover{
+    color:#00BFFF;
+}
+
+#textsource{
+    font-size: 10px;
+}
+
+#timetable{
+    border-collapse: collapse;
+}
+
+#timetable, td, th{
+    border: 1px solid #00bfff;
+    padding: 10px;
+}
+
+.tableh:hover{
+    color: #00bfff;
+    transition-duration: 0.2s;
+}
+
+.eegg{
+    opacity: 0%;
+    font-size: 10px;
+}
+
+.eegg:hover{
+    opacity: 100%;
+}
+
+.sor:hover{
+    color:#00BFFF;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+.colorschemediv{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.7);
+    padding: 10px;
+    padding-bottom: 20px; 
+    padding-left: 30px;
+}
+
+.colorscheme td{
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    width:200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:none;
+}
+
+#bgcolor{
+    background-color: #333;
+}
+
+#fcolor{
+    background-color:#bfbfbf;
+    color:#000000;
+}
+
+#scolor{
+    background-color:#000000;
+}
+
+#seccolor{
+    background-color: #00bfff;
+    color:black;
+}
+
+.end{
+    background-color:rgba(0,0,0,0.95);
+    text-align: center;
+    padding: 25px;
+}
+
+#randomwebsite:hover{
+    color: #00bfff;
+}
+
+#shittext{
+    opacity: 0%; 
+}
+
+#shittext:hover{
+    opacity: 100%;
+}
